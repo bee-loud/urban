@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Urban Herald</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic'>
+</head>
+
+<body>
+    <header>
+        <h1 class="newspaper-title">The Urban Herald</h1>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+    <!-- Main Content and Footer will go here --> 
+    <main>
+        <section class="featured-article">
+            <h2>Featured Article</h2>
+                <h3>The Great Mayor Race of Whiskerville</h3>
+                    <p>In the charming town of Whiskerville, Fluffy McPaws the Cat and Sir Barks-a-Lot the Dog were fierce contenders for mayor. Fluffy campaigned with the slogan “Pawsitivity for Whiskerville,” promising catnip parks and extra nap time. Sir Barks-a-Lot countered with “Barks-a-Lot for the Woof!” advocating for more playtime and belly rubs.</p>
+                   <img src="/images/vs.jpeg" alt="Cat vs. dog">
+                    <p>On election day, chaos ensued when a landslide sent Sir Barks-a-Lot tumbling into a muddy puddle! Fluffy quickly sprang into action, leading a rescue team of clever cats to pull him out. When the votes were counted, Fluffy emerged victorious!</p>
+                    <p>Sir Barks-a-Lot graciously congratulated him, and Fluffy suggested a catnip party to celebrate. The two rivals became best friends, proving that even the toughest races can end in harmony—especially with treats involved!</p>
+            </section>
+
+        <section class="latest-news">
+            <h2>Latest News</h2>
+                <h3>Fluffy McPaws: The Pawsitive Change-Maker of Whiskerville</h3>
+                    <p>Mayor Fluffy McPaws is turning Whiskerville upside down—with silliness! His “Meow-sical Mondays” invite pets to showcase their quirkiest talents, from howling harmonies to catwalk struts.</p>
+                    <img src="/images/sing.jpg" alt="Cat vs. dog">
+                    <p>Thanks to Fluffy’s fluff-tastic ideas, Whiskerville is buzzing with laughter and camaraderie. Under his leadership, the community is not just a place to live; it’s a playground of joy! Fluffy McPaws is truly the cat-alyst for change!</p>
+                </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>Contact us at info@urbanherald.com</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+    
+</body>
+</html>

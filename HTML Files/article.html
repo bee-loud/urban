@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Urban Herald</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Droid+Serif:400,700,400italic,700italic'>
+</head>
+
+<body>
+    <header>
+        <h1 class="newspaper-title">The Urban Herald</h1>
+        <nav>
+            <div class="hamburger">☰</div> <!--Hamburger Icon-->
+            <ul>
+                <!--Navigation Items-->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--HEADER-->
+    <main class="article-content">
+        <article class="article-header">
+            <h2>Local Cat Elected Mayor in Landslide Victory</h2>
+            <p>By: Felicity Whiskers, Staff Writer | August 23, 2024</p>
+        </article>
+        
+        <!--ARTICLE CONTENT AND SECTION HEADER-->
+        <section>
+            <div class="box-container"> <!--BOX CONTAINER-->
+                <h3>Fluffy's Win</h3>
+                    <p>In an unprecedented turn of events, the small town of Whiskerville has elected its first feline mayor. Mayor Fluffy McPaws, a 7-year-old tabby cat, won the election by an astonishing 87% of the vote, surpassing all human candidates.</p>
+                    <p>Fluffy’s campaign, known for its catchy slogan "Paws for Progress," focused on enhancing local parks, introducing more nap times for all citizens, and increasing the amount of fish served at community events. The campaign also promised to improve the town’s mouse population control and offer free scratching posts to all households.</p>
+                    <p>"We knew Fluffy had the charisma and charm to win, but we never expected such a landslide victory," said Jane Furrier, one of Fluffy’s campaign managers. "The community really rallied behind the idea of a more relaxed, purring leadership style."</p>
+            
+            <div class="catmayor">
+                <img src="/images/mayor.jpg" alt="Mayor Fluffy Paws in a suit">
+              </div>
+           
+                <p>Despite initial skepticism, Fluffy has already made an impact. His first official act as mayor was to institute a new town-wide nap time, which has been met with overwhelming approval. Local businesses have reported a marked increase in productivity during non-nap hours, attributing it to the improved mood of residents.</p>
+                <p>In a statement from his new office, which is furnished with a luxurious cat bed and several plush toys, Mayor Fluffy McPaws expressed his gratitude and excitement for the future. "Meow," he said, which many interpret as "Thank you, Whiskerville! I promise to work hard for a purrfect future."</p>
+                <p>The town council is currently working on adapting the city’s official seal to include a picture of Fluffy with a top hat and monocle. Residents are hopeful that the new administration will bring a fresh perspective and, of course, more treats.</p>
+            </div>
+            </section>
+        
+            <!--AD-->
+        <aside class="sidebar">
+            <section class="advertisement">
+                <h3>Adopt Kittens!</h3>
+                <p>Find your perfect companion today.</p>
+                 <div class="cat-gallery">
+                    <img src="/images/cat1.jpg" alt="Silly white cat"> 
+                    <img src="/images/cat2.jpg" alt="Funny looking gray cat"> 
+                    <img src="/images/cat3.jpg" alt="Cat with its tongue out"> 
+                    <img src="/images/cat 5.jpg" alt="Derpy cat"> 
+                 </div>
+                <p>These kitties need a home!</p>
+             </section>
+        </aside>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="footer">
+            <p>Contact us at info@urbanherald.com</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
